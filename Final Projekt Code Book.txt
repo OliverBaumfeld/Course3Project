@@ -1,0 +1,151 @@
+================================================================================
+Code Book
+================================================================================
+Notes:
+- Each row contains the calculated AVERAGE of each VARIABLE for each SUBJECT and  each ACTIVITY.
+- The original data and its description can be found here: 
+  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+- The features are normalized and bounded within [-1,1].
+
+A more detailed description of the experiment and the calculation of each variable can be found in ReadMe.md and in the description of the original dataset. 
+
+Source:
+
+Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
+1 - Smartlab - Non-Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
+2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
+Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+activityrecognition '@' smartlab.ws 
+
+================================================================================
+List of variables:
+================================================================================
+
+subject
+  The number of the subject.
+  Between 1 and 30.
+
+activity
+  The activity performed by the subject. Takes one of 6 values:
+    - laying
+    - sitting
+    - standing
+    - walking
+    - walking_downstairs
+    - walking_upstairs
+
+========================
+Time domain variables:
+
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y,
+tBodyAcc-mean()-Z
+  Mean value of the x, y, or z-axis of the body acceleration signal.
+
+tBodyAcc-std()-X,
+tBodyAcc-std()-Y,
+tBodyAcc-std()-Z
+  Standard deviation of the x, y, or z-axis of the body acceleration signal.
+
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+  Mean value of the x, y, or z-axis of the gravity acceleration signal.
+
+tGravityAcc-std()-X
+tGravityAcc-std()-Y
+tGravityAcc-std()-Z
+  Standard deviation of the x, y, or z-axis of the gravity acceleration signal.
+
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+  Mean value of the x, y, or z-axis of the jerk of the acceleration signal.
+
+tBodyAccJerk-std()-X
+tBodyAccJerk-std()-Y
+tBodyAccJerk-std()-Z
+  Standard deviation of the x, y, or z-axis of the jerk of the acceleration signal.
+
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+  Mean value of the the x, y, or z-axis of the gyroscope signal.
+
+tBodyGyro-std()-X
+tBodyGyro-std()-Y
+tBodyGyro-std()-Z
+  Standard deviation of the the x, y, or z-axis of the gyroscope signal.
+
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+  Mean value of the x, y, or z-axis of the jerk of the gyroscope signal.
+
+tBodyGyroJerk-std()-X
+tBodyGyroJerk-std()-Y
+tBodyGyroJerk-std()-Z
+  Standard deviation of the x, y, or z-axis of the jerk of the gyroscope signal.
+
+tBodyAccMag-mean()
+  Mean value of the magnitude (Euklidian norm) of the body acceleration.
+
+tBodyAccMag-std()
+  Standard deviation of the magnitude (Euklidian norm) of the body acceleration.
+
+tGravityAccMag-mean()
+  Mean value of the magnitude (Euklidian norm) of the gravity acceleration.
+
+tGravityAccMag-std()
+  Standard deviation of the magnitude (Euklidian norm) of the gravity acceleration.
+
+tBodyAccJerkMag-mean()
+  Mean value of the magnitude (Euklidian norm) of the jerk of the body acceleration.
+
+tBodyAccJerkMag-std()
+  Standard deviation of the magnitude (Euklidian norm) of the jerk of the body acceleration.
+
+tBodyGyroMag-mean()
+  Mean value of the magnitude (Euklidian norm) of the gyroscope signal.
+
+tBodyGyroMag-std()
+  Standard deviation of the magnitude (Euklidian norm) of the gyroscope signal.
+
+tBodyGyroJerkMag-mean()
+  Mean value of the magnitude (Euklidian norm) of the jerk of the gyroscope signal.
+
+tBodyGyroJerkMag-std()
+  Standard deviation of the magnitude (Euklidian norm) of the jerk of the gyroscope signal.
+
+========================
+Frequency domain variables:
+
+For each time series variable above (denoted by the f prefix) the following variables contain the corresponding Fourier transform (indicated by the f prefix).
+
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAcc-std()-X
+fBodyAcc-std()-Y
+fBodyAcc-std()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyAccJerk-std()-X
+fBodyAccJerk-std()-Y
+fBodyAccJerk-std()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyGyro-std()-X
+fBodyGyro-std()-Y
+fBodyGyro-std()-Z
+fBodyAccMag-mean()
+fBodyAccMag-std()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyAccJerkMag-std()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroMag-std()
+fBodyBodyGyroJerkMag-mean()
+fBodyBodyGyroJerkMag-std()
