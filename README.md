@@ -9,9 +9,9 @@ The script run_analysis.R performs the follwing tasks: (as outlined in the instr
  5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Script Input:
-  The data as downloaded and unpacked from:
-  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  (date of retrieval: 27.12.2017)
+  - The data as downloaded and unpacked from:  
+   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+   (date of retrieval: 27.12.2017)
 
 Script Ouput:
   - final-dataset.csv: Contains the final data set.
