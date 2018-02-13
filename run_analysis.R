@@ -103,7 +103,7 @@ final_dataset <- data_meanstd %>%
 # Generate Output ==============================================================
 
 # write final data set to csv file
-write_csv(final_dataset,
+write.table(final_dataset,
           paste0(output_folder, "final-dataset.csv"))
 
 # write list of variables in the final data set to csv file
